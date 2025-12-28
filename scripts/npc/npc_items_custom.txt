@@ -1,0 +1,466 @@
+"DOTAAbilities"
+{
+	//=================================================================================================================
+	// Bag of Gold
+	//=================================================================================================================
+	"item_bag_of_gold"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityName"					"item_bag_of_gold"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/props_gameplay/gold_coin_overthrow.vmdl"
+		"ItemKillable"					"0"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"99999"
+		"ItemPurchasable"				"0"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"0"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"1"
+	}
+	//=================================================================================================================
+	// Treasure Chest
+	//=================================================================================================================
+	"item_treasure_chest"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"1001"
+		"AbilityName"					"item_treasure_chest"
+		"BaseClass"						"item_bag_of_gold"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/props_gameplay/treasure_chest001.vmdl"
+		"ItemKillable"					"0"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastPoint"				"0.0"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"99999"
+		"ItemPurchasable"				"0"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemStackable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"0"
+		"ItemKillable"					"0"
+		"ItemCastOnPickup"				"1"
+	}
+		"item_dagon"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"FightRecapLevel"				"1"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"700 750 800 850 900"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"27 24 21 18 15"
+		"AbilitySharedCooldown"			"dagon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"1"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"120 140 160 180 200"
+		"ItemCost"						"2850"
+		"ItemShopTags"					"damage;int;str;agi;hard_to_tag"
+		"ItemQuality"					"rare"	
+		"ItemAliases"					"dagon 1"
+		
+		"UpgradesItems"					"item_dagon;item_dagon_2;item_dagon_3;item_dagon_4"
+		"UpgradeRecipe"					"item_recipe_dagon"
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_int"		"7 9 11 13 15"
+			"bonus_str"		"7 9 11 13 15"
+			"bonus_agi"		"7 9 11 13 15"
+			"damage"				"400 500 600 700 800"
+			"damage_delay"				"0"
+			"mana_cost_tooltip"		"120 140 160 180 200"
+			"int_damage"		"0"
+			"passive_spell_lifesteal"			"15"
+			"dagon_spell_lifesteal"				"75"
+		}
+	}
+
+	"item_dagon_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"FightRecapLevel"				"1"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"700 750 800 850 900"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"27 24 21 18 15"
+		"AbilitySharedCooldown"			"dagon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"120 140 160 180 200"
+		"ItemCost"						"4000"
+		"ItemShopTags"					"damage;int;str;agi;hard_to_tag"
+		"ItemQuality"					"rare"	
+		"ItemAliases"					"dagon 2"
+		
+		"UpgradesItems"					"item_dagon_2;item_dagon_3;item_dagon_4"
+		"UpgradeRecipe"					"item_recipe_dagon"
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_int"		"7 9 11 13 15"
+			"bonus_str"		"7 9 11 13 15"
+			"bonus_agi"		"7 9 11 13 15"
+			"damage"				"400 500 600 700 800"
+			"damage_delay"				"0"
+			"mana_cost_tooltip"		"120 140 160 180 200"
+			"int_damage"		"0"
+			"passive_spell_lifesteal"			"15"
+			"dagon_spell_lifesteal"				"75"
+		}
+	}
+
+	"item_dagon_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"FightRecapLevel"				"1"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"700 750 800 850 900"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"27 24 21 18 15"
+		"AbilitySharedCooldown"			"dagon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"120 140 160 180 200"
+		"ItemCost"						"5150"
+		"ItemShopTags"					"damage;int;str;agi;hard_to_tag"
+		"ItemQuality"					"rare"
+		"ItemAliases"					"dagon 3"	
+
+		"UpgradesItems"					"item_dagon_3;item_dagon_4"
+		"UpgradeRecipe"					"item_recipe_dagon"
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_int"		"7 9 11 13 15"
+			"bonus_str"		"7 9 11 13 15"
+			"bonus_agi"		"7 9 11 13 15"
+			"damage"				"400 500 600 700 800"
+			"damage_delay"				"0"
+			"mana_cost_tooltip"		"120 140 160 180 200"
+			"int_damage"		"0"
+			"passive_spell_lifesteal"			"15"
+			"dagon_spell_lifesteal"				"75"
+		}
+	}
+
+	"item_dagon_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"FightRecapLevel"				"1"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"700 750 800 850 900"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"27 24 21 18 15"
+		"AbilitySharedCooldown"			"dagon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"120 140 160 180 200"
+		"ItemCost"						"6300"
+		"ItemShopTags"					"damage;int;str;agi;hard_to_tag"
+		"ItemQuality"					"rare"
+		"ItemAliases"					"dagon 4"	
+
+		"UpgradesItems"					"item_dagon_4"
+		"UpgradeRecipe"					"item_recipe_dagon"
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_int"		"7 9 11 13 15"
+			"bonus_str"		"7 9 11 13 15"
+			"bonus_agi"		"7 9 11 13 15"
+			"damage"				"400 500 600 700 800"
+			"damage_delay"				"0"
+			"mana_cost_tooltip"		"120 140 160 180 200"
+			"int_damage"		"0"
+			"passive_spell_lifesteal"			"15"
+			"dagon_spell_lifesteal"				"75"
+		}
+	}
+
+	"item_dagon_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"FightRecapLevel"				"1"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"700 750 800 850 900"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"27 24 21 18 15"
+		"AbilitySharedCooldown"			"dagon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"120 140 160 180 200"
+		"ItemCost"						"7450"
+		"ItemShopTags"					"damage;int;str;agi;hard_to_tag"
+		"ItemQuality"					"rare"
+		"ItemAliases"					"dagon 5"	
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"bonus_int"		"7 9 11 13 15"
+			"bonus_str"		"7 9 11 13 15"
+			"bonus_agi"		"7 9 11 13 15"
+			"damage"				"400 500 600 700 800"
+			"damage_delay"				"0"
+			"mana_cost_tooltip"		"120 140 160 180 200"
+			"int_damage"		"0"
+			"passive_spell_lifesteal"			"15"
+			"dagon_spell_lifesteal"				"75"
+		}
+	}
+	"item_recipe_mkb_silver"
+	{
+	    "BaseClass" "item_datadriven"
+	    "AbilityTextureName" "item_recipe"
+	    "Model"              "models/props_gameplay/recipe.vmdl"
+	    "ItemCost"						"2000"
+	    "ItemShopTags"					""
+	    "ItemRecipe"                    "1"
+	    "ItemResult"                    "item_mkb_silver"
+	    "ItemRequirements"
+		{
+			"01"						"item_monkey_king_bar;item_silver_edge"
+		}
+	}
+	"item_mkb_silver"
+	{
+	    "BaseClass" "item_lua"
+	    "ScriptFile" "items/item_mkb_silver"
+	    "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+	    "AbilityCooldown"				"27"
+	    "AbilityTextureName"            "mkb2"
+	    "AbilityValues"
+		{
+		    "duration" "15"
+		    "damage" "300"
+		    "damage_magic" "85"
+		    "as" "80"
+		    "bonus_damage" "110"
+		}
+	}
+	"item_mag_shard1"
+	{
+	    "BaseClass" "item_lua"
+	    "ScriptFile" "items/item_mag_shard1"
+	    "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	    "AbilityCooldown"				"1"
+	    "ItemPurchasable"				"0"
+		"ItemSellable"					"0"
+	    "AbilityTextureName"            "magshard"
+	    "ItemCost"						"99999"
+	    "ItemStockMax"                    "0" //Макс число предметов в лавке
+        "ItemStockInitial"                "0" //Стартовое число в лавке
+        "ItemStockTime"                    "999999350" //время восстоновления предметов
+	    "AbilityValues"
+		{
+		    "damage_prc" "40"
+		}
+	}
+	"item_mag_shard2"
+	{
+	    "BaseClass" "item_lua"
+	    "ScriptFile" "items/item_mag_shard2"
+	    "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	    "AbilityCooldown"				"1"
+	    "ItemPurchasable"				"0"
+		"ItemSellable"					"0"
+	    "AbilityTextureName"            "magshard"
+	    "ItemCost"						"99999"
+	    "ItemStockMax"                    "0" //Макс число предметов в лавке
+        "ItemStockInitial"                "0" //Стартовое число в лавке
+        "ItemStockTime"                    "999999350" //время восстоновления предметов
+	    "AbilityValues"
+		{
+		    "damage" "100"
+		}
+	}
+	"item_mag_shard3"
+	{
+	    "BaseClass" "item_lua"
+	    "ScriptFile" "items/item_mag_shard3"
+	    "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	    "AbilityCooldown"				"1"
+	    "ItemPurchasable"				"0"
+		"ItemSellable"					"0"
+	    "AbilityTextureName"            "magshard"
+	    "ItemCost"						"99999"
+	    "ItemStockMax"                    "0" //Макс число предметов в лавке
+        "ItemStockInitial"                "0" //Стартовое число в лавке
+        "ItemStockTime"                    "999999350" //время восстоновления предметов
+	    "AbilityValues"
+		{
+		    "res" "-30"
+		}
+	}
+	"item_recipe_mag_shard"
+	{
+	    "BaseClass" "item_datadriven"
+	    "AbilityTextureName" "item_recipe"
+	    "Model"              "models/props_gameplay/recipe.vmdl"
+	    "ItemCost"						"0"
+	    "ItemShopTags"					""
+	    "ItemRecipe"                    "1"
+	    "ItemResult"                    "item_mag_shard_true"
+	    "ItemRequirements"
+		{
+			"01"						"item_mag_shard3;item_mag_shard2;item_mag_shard1"
+		}
+	}
+	"item_mag_shard_true"
+	{
+	    "BaseClass" "item_lua"
+	    "ScriptFile" "items/item_mag_shard_true"
+	    "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+	    "AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+	    "AbilityCooldown"				"1"
+	    "ItemPurchasable"				"0"
+		"ItemSellable"					"0"
+	    "AbilityTextureName"            "magshard"
+	    "ItemCost"						"99999"
+	    "ItemStockMax"                    "0" //Макс число предметов в лавке
+        "ItemStockInitial"                "0" //Стартовое число в лавке
+        "ItemStockTime"                    "999999350" //время восстоновления предметов
+	    "AbilityValues"
+		{
+		    "res" "-30"
+		    "damage" "100"
+		    "damage_prc" "40"
+		}
+	}
+	"item_ref_boss"
+	{
+	    "BaseClass" "item_lua"
+	    "ScriptFile" "items/item_ref_boss"
+	    "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+	    "AbilityCooldown"				"60"
+	    "AbilityTextureName"            "item_refresher_shard"
+	    "ItemCost"						"8000"
+	    "ItemStockMax"                    "1" //Макс число предметов в лавке
+        "ItemStockInitial"                "1" //Стартовое число в лавке
+        "ItemStockTime"                    "999999350" //время восстоновления предметов
+	}
+	"item_nullif_up"
+	{
+	    "BaseClass" "item_lua"
+	    "ScriptFile" "items/item_nullif_up"
+	    "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityCooldown"				"10"
+		"AbilityTextureName"            "nullif_up"
+		"AbilityValues"
+		{
+		    "duration" "7" //-
+		    "damage" "70" //-
+		    "as" "-70" //-
+		    "ms" "-70" //-
+		    "hp_regen" "20"
+		    "armor" "15"
+		    "damage_bonus" "110"
+		}
+	}
+	"item_recipe_nullif_up"
+	{
+	    "BaseClass" "item_datadriven"
+	    "AbilityTextureName" "item_recipe"
+	    "Model"              "models/props_gameplay/recipe.vmdl"
+	    "ItemCost"						"3000"
+	    "ItemShopTags"					""
+	    "ItemRecipe"                    "1"
+	    "ItemResult"                    "item_nullif_up"
+	    "ItemRequirements"
+		{
+			"01"						"item_nullifier"
+		}
+	}
+}

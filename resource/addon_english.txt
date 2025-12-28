@@ -1,0 +1,579 @@
+﻿"lang"
+{
+	"Language"		"English"
+	"Tokens"
+	{		
+		"addon_game_name"								"Jujutsu Dota"
+		"DOTA_GameMode_15"													"Jujutsu Dota"
+		"BanPhase"										"ЧИСТО ЗАБАНИТЬ"
+		"HeroPickPhase"									"НЕ ПИКАТЬ ИМБУ!!!"
+		"StrategyPhase"									"ГОТОВЫ???"
+
+		"DOTA_Tooltip_modifier_get_xp"					"Golden Aura"
+		"DOTA_Tooltip_modifier_get_xp_Description"		"Gaining more gold and experience!"
+
+		"DOTA_Tooltip_modifier_get_xp_global"					"Global Aura"
+		"DOTA_Tooltip_modifier_get_xp_global_Description"		"Gaining gold and experience"
+
+		"DOTA_Tooltip_modifier_fountain_aura_effect_lua"					"Fountain Aura"
+		"DOTA_Tooltip_modifier_fountain_aura_effect_lua_Description"		"Healing"
+
+		"DOTA_Tooltip_modifier_invis_revealed"			"Revealed"
+
+		"DOTA_Tooltip_ability_item_bag_of_gold"			"300 Gold"
+		"DOTA_Tooltip_ability_item_treasure_chest"		"Treasure Chest"
+
+		"DOTA_Tooltip_ability_lvl10t"                   "250 золота"
+		"DOTA_Tooltip_ability_lvl15t"                   "500 золота"
+		"DOTA_Tooltip_ability_lvl20t"                   "1000 золота"
+		"DOTA_Tooltip_ability_lvl25t"                   "1500 золота"
+
+
+	 //Герои
+
+	 "npc_dota_hero_omniknight"               "Лайт Ягами"
+	 "npc_dota_hero_zuus"                     "Сатору Годжо"
+	 "npc_dota_hero_juggernaut"               "Какаши Хатаке"
+	 "npc_dota_hero_terrorblade"              "Дио Брандо"
+	 "npc_dota_hero_antimage"                 "Саске Учиха"
+	 "npc_dota_hero_kunkka"                   "Юта Оккоцу"
+	 "npc_dota_hero_night_stalker"            "Сукуна Рёмен"
+	 "npc_dota_hero_meepo"                    "Наруто Узумаки"
+	 "npc_dota_hero_sven"                     "Гатс"
+	 "npc_dota_hero_ember_spirit"             "Ренгоку Кёджуро"
+	 "npc_dota_hero_lycan"                    "Тоджи Фушигуро"
+	 "npc_dota_hero_elder_titan"              "Гароу"
+	 "npc_dota_hero_treant"                   "Сайтама"
+	 "npc_dota_hero_necrolyte"                "Орочимару"
+	 "npc_dota_hero_void_spirit"              "???"
+	 "npc_dota_hero_dawnbreaker"              "Эсканор"
+	 "npc_dota_hero_phantom_lancer"           "Мегуми"
+
+	 //Скиллы
+
+	 "DOTA_Tooltip_ability_passive_intelligence_skill"           "БЕЗГРАНИЧНЫЙ ИНТЕЛЛЕКТ"
+	 "DOTA_Tooltip_ability_passive_intelligence_skill_Description"  "Придает герою постоянный бонус к интеллекту"
+	 "DOTA_Tooltip_ability_passive_intelligence_skill_bonus_intelligence" "БОНУСНЫЙ ИНТЕЛЛЕКТ:"
+	 "DOTA_Tooltip_ability_yagami2" "ЗАПИСЬ В ТЕТРАДЬ"
+	 "DOTA_Tooltip_ability_yagami2_Description" "Тетрадь Смерти – это мистический артефакт, способный убивать Живых Существ на расстоянии. Запрещает цели использовать способности и накладывает истощение"
+	 "DOTA_Tooltip_ability_yagami2_duration"  "ДЛИТЕЛЬНОСТЬ:"
+	 "DOTA_Tooltip_ability_yagami2_damage"    "УРОН:"
+	 "DOTA_Tooltip_ability_counteranim"           "БЛОКИРОВАНИЕ"
+	 "DOTA_Tooltip_ability_counteranim_Description" "Блокирует все направленные способности и отправляет обратно во владельца"
+	 "DOTA_Tooltip_ability_counteranim_duration"   "ДЛИТЕЛЬНОСТЬ:"
+	 "DOTA_Tooltip_ability_yagami3"            "ПЕРЕРОЖДЕНИЕ"
+	 "DOTA_Tooltip_ability_yagami3_Description" "Свойство, которое позволят появляться в Мире Богов Смерти новым Шинигами, так как, судя по всему, все Боги Смерти когда-то владели тетрадью, будучи простыми смертными. Но, можно предположить, что при перерождении теряется вся или какая-то часть памяти"
+	 "DOTA_Tooltip_ability_yagami3_slow_duration" "ВРЕМЯ СТРАХА:"
+	 "DOTA_Tooltip_ability_yagami3_reincarnate_time" "ВРЕМЯ ПЕРЕРОЖДЕНИЯ:"
+	 "DOTA_Tooltip_ability_yagami1"  "ПОДЧИНЕИЕ ДУШИ"
+	 "DOTA_Tooltip_ability_yagami1_Description" "При виде Лайта душа противника впадает в ступор и начинает разрушаться на небольшой промежуток времени"
+	 "DOTA_Tooltip_ability_yagami1_burn_damage"  "УРОН:"
+	 "DOTA_Tooltip_ability_yagami1_burn_damage_pct"  "%УРОН ОТ МАКС. ЗДОРОВЬЯ:"
+	 "DOTA_Tooltip_ability_yagami1_burn_duration"    "ДЛИТЕЛЬНОСТЬ РАЗРУШЕНИЯ:"
+	 "DOTA_Tooltip_ability_yagami1_ministun_duration" "ДЛИТЕЛЬНОСТЬ СТУПОРА:"
+
+	 	 "DOTA_Tooltip_ability_nohitanim" "БЕСКОНЕЧНОСТЬ"
+	 "DOTA_Tooltip_ability_nohitanim_Description" "Техника, позволяющая бесконечно замедлять чужие атаки, так, что они попросту не достигают тела Сатору"
+	 "DOTA_Tooltip_ability_nohitanim_slow_attack_speed" "ЗАМЕДЛЕНИЕ АТАКИ:"
+
+	 	 "DOTA_Tooltip_ability_fiolanim" "ФИОЛЕТОВЫЙ"
+	 "DOTA_Tooltip_ability_fiolanim_Description"         "Техника, известная лишь немногим даже в семье Годжо, сталкивающая технику вращения вперед Синий и технику обратного вращения Красный"
+	 "DOTA_Tooltip_ability_fiolanim_magic_missile_stun"  "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:" 
+	 "DOTA_Tooltip_ability_fiolanim_magic_missile_damage" "УРОН:"
+
+	 "DOTA_Tooltip_ability_blueanim" "СИНИЙ"
+	 "DOTA_Tooltip_ability_blueanim_Description"  "Усиленная бесконечная техника, получившаяся в результате усиления Бесконечности и скрещивания его с негативными натуральными числами"
+	 "DOTA_Tooltip_ability_blueanim_damage"  "УРОН:"
+
+	 "DOTA_Tooltip_ability_redanim" "КРАСНЫЙ"
+	 "DOTA_Tooltip_ability_redanim_Description"  "Обратная бесконечная техника, создающаяся путем реверсирования Синего огромный выброс силы, отталкивающий все на своем пути"
+	 "DOTA_Tooltip_ability_redanim_damage" "УРОН:"
+
+
+
+	 "DOTA_Tooltip_ability_sharingan" "ШАРИНГАН"
+	 "DOTA_Tooltip_ability_sharingan_Description"  "Фирменное дзюцу клана Учиха"
+	 "DOTA_Tooltip_ability_sharingan_bonus_evasion" "%УКЛОНЕНИЕ:"
+
+	 "DOTA_Tooltip_ability_kakashi1" "Камуи"
+	 "DOTA_Tooltip_ability_kakashi1_Description" "Дзюцу, позволяющее с помощью Мангекё Шарингана создать некую воронку в другое измерение, затягивая в нее все, на что будет обращен взгляд"
+	 "DOTA_Tooltip_ability_kakashi1_damage" "УРОН В СЕКУНДУ:"
+	 "DOTA_Tooltip_ability_kakashi1_duration" "ДЛИТЕЛЬНОСТЬ:"
+
+	 "DOTA_Tooltip_ability_morphling_replicate" "Копирующий ниндзя"
+	 "DOTA_Tooltip_ability_morphling_replicate_Description" "С помощью шарингана копирует способности врага"
+	 "DOTA_Tooltip_ability_morphling_replicate_duration"  "ДЛИТЕЛЬНОСТЬ:"
+	 "DOTA_Tooltip_ability_morphling_morph_replicate"     "Копирующий ниндзя"
+	 "DOTA_Tooltip_ability_morphling_morph_replicate_Description" "С помощью шарингана копирует способности врага"
+	 "DOTA_Tooltip_ability_kakashi3" "Чидори"
+	 "DOTA_Tooltip_ability_kakashi3_Description" "Дзюцу, позволяющее концентрировать чакру в руке, преобразуя ее в электричество, после чего атаковать противника"
+	 "DOTA_Tooltip_ability_kakashi3_ball_lightning_travel_cost_base" "МАНАКОСТ:"
+
+
+
+	 "DOTA_Tooltip_ability_dio1" "бессмертное тело"
+	 "DOTA_Tooltip_ability_dio1_Description"  "Высокий уровень регенерации позволяет вампирам восстанавливаться после смертельных для обычного человека ран"
+	 "DOTA_Tooltip_ability_dio1_bonus_health_regen" "ДОП. ХП. РЕГЕНЕРАЦИЯ:"
+	 "DOTA_Tooltip_ability_dio1_bonus_armor" "ДОП. БРОНЯ:"
+	 "DOTA_Tooltip_ability_dio2" "MUDA MUDA MUDA!"
+	 "DOTA_Tooltip_ability_dio2_Description" "Шквал ударов, наносимый на огромной скорости"
+	 "DOTA_Tooltip_ability_dio2_max_attacks" "КОЛ-ВО АТАК:"
+	 "DOTA_Tooltip_ability_dio3" "The World"
+	 "DOTA_Tooltip_ability_dio3_Description" "Остановка времени че еще писать"
+	 "DOTA_Tooltip_ability_dio3_radius" "РАДИУС:"
+	 "DOTA_Tooltip_ability_dio3_duration" "ДЛИТЕЛЬНОСТЬ:"
+
+	 "DOTA_Tooltip_ability_dio4" "SHINE!"
+	 "DOTA_Tooltip_ability_dio4_Description" "Oдин точный и мощный удар, которым The World пробивает врага насквозь"
+	 "DOTA_Tooltip_ability_dio4_crit_multiplier" "%КРИТ:"
+
+
+
+	 "DOTA_Tooltip_ability_saske_ult" "Чидори"
+	 "DOTA_Tooltip_ability_saske_ult_Description" "Дзюцу, позволяющее концентрировать чакру в руке, преобразуя ее в электричество, после чего атаковать противника"
+	 "DOTA_Tooltip_ability_saske_ult_ball_lightning_travel_cost_base" "МАНАКОСТ:"
+
+	 "DOTA_Tooltip_ability_saske_rinne" "РИННЕГАН"
+	 "DOTA_Tooltip_ability_saske_rinne_Description" "С помощью риннегана может менять местами себя с противником"
+	 "DOTA_Tooltip_ability_saske_rinne_damage" "УРОН:"
+	 "DOTA_Tooltip_ability_saske_meta" "МЕТКА ОРОЧИМАРУ"
+	 "DOTA_Tooltip_ability_saske_meta_Description" "Метка орочимару позволяет усиливать свои физ. способности"
+	 "DOTA_Tooltip_ability_saske_meta_duration" "ДЛИТЕЛЬНОСТЬ:"
+	 "DOTA_Tooltip_ability_saske_meta_bonus_range" "ДОП. ДАЛЬНОСТЬ АТАКИ:"
+	 "DOTA_Tooltip_ability_saske_meta_bonus_base_damage" "%ДОП. УРОН:"
+	 "DOTA_Tooltip_ability_sask_re1" "Сусаноо"
+	 "DOTA_Tooltip_ability_sask_re1_Description" "Мангекьё Шаринган позволяет создать броню из чакры"
+	 "DOTA_Tooltip_ability_sask_re1_bonus_armor" "ДОП. БРОНЯ:"
+	 "DOTA_Tooltip_ability_sask_re1_bonus_hp" "ДОП. ЗДОРОВЬЕ:"
+	 "DOTA_Tooltip_ability_sask_re1_duration" "ДЛИТЕЛЬНОСТЬ:"
+
+
+
+	 "DOTA_Tooltip_ability_ubauba1" "Проклятая речь"
+	 "DOTA_Tooltip_ability_ubauba1_Description" "Скопированная способность у Тогэ Инумаки позволяет использовать проклятую речь, которой повинуются все противники"
+	 "DOTA_Tooltip_ability_ubauba1_light_strike_array_damage" "УРОН:"
+	 "DOTA_Tooltip_ability_ubauba1_light_strike_array_stun_duration" "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
+	 "DOTA_Tooltip_ability_ubauba2"    "черная молния"
+	 "DOTA_Tooltip_ability_ubauba2_Description" "Искажения в пространстве, что возникают из-за применения проклятой энергии в пределах 0.000001 секунды физического удара. Если пользователю удаётся применить проклятую энергию именно в этот момент, их собственная потраченная ранее проклятая энергия вспыхивает чёрным, а сила атаки возрастает в 2,5 раза"
+	 "DOTA_Tooltip_ability_ubauba2_bonus_damage" "ДОП. УРОН:"
+	 "DOTA_Tooltip_ability_ubauba3" "обратаня проклятая техника"
+	 "DOTA_Tooltip_ability_ubauba3_Description" "Обратная проклятая техника преобразует по природе отрицательную проклятую энергию в положительную, используя два источника проклятой энергии и умножая их друг на друга. В результате, разрушающая энергия становится создающей, а негативная - позитивной"
+	 "DOTA_Tooltip_ability_ubauba3_bonus_attack_speed" "ДОП. СКОРОСТЬ АТАКИ:"
+	 "DOTA_Tooltip_ability_ubauba3_hp_regen"   "%ЛЕЧЕНИЕ ОТ МАКС. ЗДОРОВЬЯ:"
+	 "DOTA_Tooltip_ability_ubauba4" "Врожденная техника копирования"
+	 "DOTA_Tooltip_ability_ubauba4_Description" "Копирование — позволяет скопировать проклятые техники шамана. Он даже может использовать несколько разных техник, которые он скопировал в быстрой последовательности. Условия, при которых он может копировать технику, полностью неизвестны"
+	 "DOTA_Tooltip_ability_ubauba4_duration" "ДЛИТЕЛЬНОСТЬ КРАЖИ:"
+
+
+
+	 "DOTA_Tooltip_ability_rema1"     "техника рассечения"
+	 "DOTA_Tooltip_ability_rema1_Description"   "Сукуна отсекает руки противника, из-за чего тот не может атаковать на время"
+	 "DOTA_Tooltip_ability_rema1_damage" "УРОН:"
+	 "DOTA_Tooltip_ability_rema1_disarm_duration" "ВРЕМЯ БЕЗ РУК:"
+	 "DOTA_Tooltip_ability_rema2" "огненный шторм"
+	 "DOTA_Tooltip_ability_rema2_Description" "Сукуна вызывает огненый шторм на область, в скором времени там все сгорает"
+	 "DOTA_Tooltip_ability_rema2_wave_damage" "УРОН ОТ МЕТЕОРИТА:"
+	 "DOTA_Tooltip_ability_rema2_burn_damage" "%ПЕРИОДИЧЕСКИЙ УРОН:"
+	 "DOTA_Tooltip_ability_rema3"  "огненная стрела"
+	 "DOTA_Tooltip_ability_rema3_Description" "Сукуна использует неизвестную технику управления огнем, и сжигает все на своем пути"
+	 "DOTA_Tooltip_ability_rema3_dragon_slave_damage" "УРОН:"
+	 "DOTA_Tooltip_ability_rema4" "гробница зла"
+	 "DOTA_Tooltip_ability_rema4_Description" "Сукуна использует коронную технику расширения территории, уничтожая все вокруг себя. противники испытывают леденящий ужас и не могут двигаться от такой силы"
+	 "DOTA_Tooltip_ability_rema4_pit_duration" "ДЛИТЕЛЬНОСТЬ:"
+	 "DOTA_Tooltip_ability_rema4_radius" "РАДИУС:"
+	 "DOTA_Tooltip_ability_rema4_pit_damage" "УРОН:"
+	 "DOTA_Tooltip_ability_rema4_ensnare_duration" "ДЛИТЕЛЬНОСТЬ ОЦЕПЕНЕНИЯ:"
+
+
+
+
+	 "DOTA_Tooltip_ability_guts1" "ручная пушка"
+	 "DOTA_Tooltip_ability_guts1_Description" "Гатс выстреливает из ручной пушки, что скрывается в его протезе, оглушая врагов"
+	 "DOTA_Tooltip_ability_guts1_AbilityDamage" "УРОН:"
+	 "DOTA_Tooltip_ability_guts1_blast_dot_duration" "ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ:"
+	 "DOTA_Tooltip_ability_guts2" "убийца драконов"
+	 "DOTA_Tooltip_ability_guts2_Description" "Гатс имеет при себе гигантский меч, который наносит огромные повреждения"
+	 "DOTA_Tooltip_ability_guts2_crit_mult" "%КРИТИЧЕСКИЙ УРОН:"
+	 "DOTA_Tooltip_ability_guts3" "шипованные доспехи"
+	 "DOTA_Tooltip_ability_guts3_Description" "Гатс носит шипованные доспехи, которые отражают урон противников"
+	 "DOTA_Tooltip_ability_guts3_damage_reflection_pct" "%БЛОКИРУЕМЫЙ УРОН:"
+	 "DOTA_Tooltip_ability_guts4" "Берсерк"
+	 "DOTA_Tooltip_ability_guts4_Description" "во время безнадёжного боя Гатс способен входить в так называемое СОСТОЯНИЕ БЕРСЕРКА, в котором его физические показатели достигают поистине сверхчеловеческих величин, а инстинкты обостряются до сверхъестественных пределов"
+	 "DOTA_Tooltip_ability_guts4_gods_strength_damage" "%ДОП. УРОН:"
+	 "DOTA_Tooltip_ability_guts4_bonus_slow_resistance" "%СОПРОТИВЛЕНИЕ ЗАМЕДЛЕНИЮ:"
+	 "DOTA_Tooltip_ability_guts4_AbilityDuration" "ДЛИТЕЛЬНОСТЬ:"
+
+
+
+
+
+	 "DOTA_Tooltip_ability_narut1" "Расенсюрикен"
+	 "DOTA_Tooltip_ability_narut1_Description" "Техника, которая является сюрикеноподобным вариантом техники Расенган. Замедляет врага"
+	 "DOTA_Tooltip_ability_narut1_bonus_damage" "УРОН:"
+	 "DOTA_Tooltip_ability_narut1_slow_duration" "ДЛИТЕЛЬНОСТЬ ПОВРЕЖДЕНИЙ:"
+	 "DOTA_Tooltip_ability_narut2" "Техника Теневого Клонирования"
+	 "DOTA_Tooltip_ability_narut2_Description" "Техника позволяет пользователю создавать одну или несколько собственных копий. Копии умирают за один удар"
+	 "DOTA_Tooltip_ability_narut2_max_illusions" "МАКС. КОПИЙ:"
+	 "DOTA_Tooltip_ability_narut2_proc_chance_pct" "%ШАНС СРАБАТЫВАНИЯ:"
+	 "DOTA_Tooltip_ability_narut2_illusion_duration"  "ВРЕМЯ ЖИЗНИ:"
+	 "DOTA_Tooltip_ability_narut3" "ВНЕЗАПНЫЙ УДАР"
+	 "DOTA_Tooltip_ability_narut3_Description" "За счет хитрости Наруто Узумаки неносит неожиданный удар иллюзией и оглушает противника"
+	 "DOTA_Tooltip_ability_narut3_chance_pct" "%ШАНС:"
+	 "DOTA_Tooltip_ability_narut3_bonus_damage" "ДОП. УРОН:"
+	 "DOTA_Tooltip_ability_narut4" "Режим Отшельника"
+	 "DOTA_Tooltip_ability_narut4_Description" "Наруто накапливает в своем теле Сендзюцу-чакру. Это многократно увеличивает рефлексы, силу и защиту"
+	 "DOTA_Tooltip_ability_narut4_duration" "ДЛИТЕЛЬНОСТЬ:"
+	 "DOTA_Tooltip_ability_narut4_transformation_time" "ВРЕМЯ ТРАНСФОРМАЦИИ:"
+	 "DOTA_Tooltip_ability_narut4_base_attack_time" "БАЗОВЫЙ ИНТЕРВАЛ АТАК:"
+	 "DOTA_Tooltip_ability_narut4_bonus_health" "ДОП. ЗДОРОВЬЕ:"
+	 "DOTA_Tooltip_ability_narut4_bonus_health_regen" "ДОП. РЕГЕНЕРАЦИЯ:"
+	 "DOTA_Tooltip_ability_narut4_bonus_movespeed" "ДОП. СКОРОСТЬ ПЕРЕДВЕЖЕНИЯ:"
+
+
+
+
+
+
+	 "DOTA_Tooltip_ability_rengo1" "Марево"
+	 "DOTA_Tooltip_ability_rengo1_Description" "Простейшая техника Дыхания Пламени, при которой мечник совершает рывок к цели и производит одиночный разрез по горизонтали"
+	 "DOTA_Tooltip_ability_rengo1_bonus_hero_damage" "ДОП. УРОН:"
+	 "DOTA_Tooltip_ability_rengo2" "Волны интенсивного пламени"
+	 "DOTA_Tooltip_ability_rengo2_Description" "Мечник исполняет волнообразное движение мечом. Приём может служить как для защиты отбивая все атаки спереди, так и для нападения"
+	 "DOTA_Tooltip_ability_rengo2_blade_fury_damage_per_tick" "УРОН:"
+	 "DOTA_Tooltip_ability_rengo2_bonus_movespeed"  "ДОП. СКОРОСТЬ ПЕРЕДВЕЖЕНИЯ:"
+	 "DOTA_Tooltip_ability_rengo3" "Пламенный тигр"
+	 "DOTA_Tooltip_ability_rengo3_Description" "Ренгоку делает скоростной рывок к противнику и наносит серию мощных и быстрых ударов мечом, которые со стороны, визуально напоминают огненного тигра стремительно бросающегося на противника"
+	 "DOTA_Tooltip_ability_rengo3_attack_rate_multiplier" "МНОЖИТЕЛЬ СКОРОСТИ АТАКИ:"
+	 "DOTA_Tooltip_ability_rengo3_bonus_damage" "ДОП. УРОН:"
+	 "DOTA_Tooltip_ability_rengo3_bonus_attack_speed" "ДОП. СКОРОСТЬ АТАКИ:"
+	 "DOTA_Tooltip_ability_rengo3_duration" "ДЛИТЕЛЬНОСТЬ:"
+	 "DOTA_Tooltip_ability_rengo4" "Пылающее Сердце"
+	 "DOTA_Tooltip_ability_rengo4_Description" "Каждая атака по противнику заставляет сердце ренгоку пылать еще больше и больше, увеличивая его характеристики"
+	 "DOTA_Tooltip_ability_rengo4_required_hits" "УДАРОВ ДЛЯ АКТИВАЦИИ::"
+	 "DOTA_Tooltip_ability_rengo4_bonus_damage" "ДОП. УРОН:"
+	 "DOTA_Tooltip_ability_rengo4_lifesteal" "%ВАМПИРИЗМ:"
+	 "DOTA_Tooltip_ability_rengo4_charges" "УСИЛЕННЫХ АТАК:"
+	 "DOTA_Tooltip_ability_rengo4_max_duration" "ДЛИТЕЛЬНОСТЬ:"
+
+
+
+
+
+     "DOTA_Tooltip_ability_todgi1"  "Быстрое перемещение"
+     "DOTA_Tooltip_ability_todgi1_Description" "Тоджи двигается настолько быстро, что враг даже и не заметит его за своей спиной"
+     "DOTA_Tooltip_ability_todgi1_bonus_attack_speed" "ДОП. СКОРОСТЬ АТАКИ:"
+     "DOTA_Tooltip_ability_todgi1_duration" "ДЛИТЕЛЬНОСТЬ:"
+     "DOTA_Tooltip_ability_todgi1_lifesteal_pct" "%ВАМПИРИЗМ:"
+     "DOTA_Tooltip_ability_todgi2"  "Магическая сопротивляемость"
+     "DOTA_Tooltip_ability_todgi2_Description"  "Тоджи выработал сопротивление к проклятой энергии из-за того, что не умел её с рождения"
+     "DOTA_Tooltip_ability_todgi2_magic_resistance" "%СОПРОТИВЛЕНИЕ МАГИИ:"
+     "DOTA_Tooltip_ability_todgi3" "Отвлекающий манёвр"
+     "DOTA_Tooltip_ability_todgi3_Description" "Тоджи насылает на противника проклятых духов-жуков, из-за чего тот теряет бдительность"
+     "DOTA_Tooltip_ability_todgi3_damage" "УРОН:"
+     "DOTA_Tooltip_ability_todgi3_duration_day" "ДЛИТЕЛЬНОСТЬ:"
+     "DOTA_Tooltip_ability_todgi3_movespeed_slow" "%ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ:"
+     "DOTA_Tooltip_ability_todgi3_attackspeed_slow"  "ЗАМЕДЛЕНИЕ АТАКИ:"
+     "DOTA_Tooltip_ability_todgi4" "Незаметность"
+     "DOTA_Tooltip_ability_todgi4_Description" "Так как тоджи не имеет проклятой энергии, его невозможно заметить и ударить"
+     "DOTA_Tooltip_ability_todgi4_duration" "ДЛИТЕЛЬНОСТЬ:"
+     "DOTA_Tooltip_ability_todgi4_bonus_regen" "ДОП. РЕГЕНЕРАЦИЯ:"
+
+
+
+
+
+     "DOTA_Tooltip_ability_garou1" "Мгновенный эффект"
+     "DOTA_Tooltip_ability_garou1_Description" "Техника, позволяющая мгновенно сблизиться с противником и нанести удар сокрушительной мощи"
+     "DOTA_Tooltip_ability_garou1_bonus_damage" "ДОП. УРОН:"
+     "DOTA_Tooltip_ability_garou2" "Маечный удар"
+     "DOTA_Tooltip_ability_garou2_Description" "Гароу наносит мощный удар по поверхности, разрушая её на несколько десятков метров, что останавливает все движения противника, лишая его опоры"
+     "DOTA_Tooltip_ability_garou2_slow_pct" "%ЗАМЕДЛЕНИЕ:"
+     "DOTA_Tooltip_ability_garou2_slow_duration" "ДЛИТЕЛЬНОСТЬ:"
+     "DOTA_Tooltip_ability_garou3" "Мастер боевых исскуств"
+     "DOTA_Tooltip_ability_garou3_Description" "Гароу настолько отточил навыки сражения, что  убивает противников буквально за несколько ударов"
+     "DOTA_Tooltip_ability_garou3_bonus_damage" "ДОП. УРОН:"
+     "DOTA_Tooltip_ability_garou4" "Пронзающий клык"
+     "DOTA_Tooltip_ability_garou4_Description" "Гароу способен поражать самые маленькие жизненно важные точки противника с помощью одиночных ударов невероятной точности, используя кончики пальцев"
+     "DOTA_Tooltip_ability_garou4_duration" "ДЛИТЕЛЬНОСТЬ:"
+     "DOTA_Tooltip_ability_garou4_charges_per_flurry" "УДАРОВ:"
+     "DOTA_Tooltip_ability_garou4_pulse_damage" "УРОН ОТ ПУЛЬСАЦИЙ:"
+     "DOTA_Tooltip_ability_garou4_pulse_move_slow_pct" "%ЗАМЕДЛЕНИЕ ПЕРЕДВИЖЕНИЯ:"
+     "DOTA_Tooltip_ability_garou4_pulse_attack_slow_pct" "СНИЖЕНИЕ СКОРОСТИ АТАКИ:"
+     "DOTA_Tooltip_ability_garou4_bonus_movespeed" "ДОП. СКОРОСТЬ ПЕРЕДВЕЖЕНИЯ:"
+
+
+
+
+
+     "DOTA_Tooltip_ability_sait1" "Обычный удар"
+     "DOTA_Tooltip_ability_sait1_Description" "Обычный удар зачастую cопровождается ударной волной, перемалывающей противника в фарш"
+     "DOTA_Tooltip_ability_sait1_great_cleave_damage" "%ПРОРУБАЮЩИЙ УРОН:"
+     "DOTA_Tooltip_ability_sait1_strength_bonus" "ДОП. СИЛА:"
+     "DOTA_Tooltip_ability_sait4" "Серьёзный удар"
+     "DOTA_Tooltip_ability_sait4_Description" "Сайтама выполняет прямой удар правой перед собой, нанося относительно обычного удара значительно больший урон"
+     "DOTA_Tooltip_ability_sait4_max_damage" "УРОН:"
+     "DOTA_Tooltip_ability_sait4_max_stun" "ДЛИТЕЛЬНОСТЬ:"
+     "DOTA_Tooltip_ability_sait3_pop_damage" "УРОН:"
+     "DOTA_Tooltip_ability_sait3" "Огромная скорость"
+     "DOTA_Tooltip_ability_sait3_Description" "Сайтама с огромной скоростью перемещается, рассекая все на своем пути"
+     "DOTA_Tooltip_ability_sait2" "Серьёзный переворот стола"
+     "DOTA_Tooltip_ability_sait2_Description" "Сайтама втыкает руки в землю и вырывает большую площадь поверхности из земли, бросая ее вверх" 
+     "DOTA_Tooltip_ability_sait2_duration" "ДЛИТЕЛЬНОСТЬ:"
+
+
+
+
+
+
+     "DOTA_Tooltip_ability_oroch1" "Сеней Дзашу"
+     "DOTA_Tooltip_ability_oroch1_Description" "Техника управления змеями, появляющимися из рукавов Орочимару. Змеи безумно замедляют противника и наносят урон"
+     "DOTA_Tooltip_ability_oroch1_snake_damage" "УРОН:"
+     "DOTA_Tooltip_ability_oroch1_slow_duration" "ДЛИТЕЛЬНОСТЬ:"
+     "DOTA_Tooltip_ability_oroch2" "Эдо Тенсей"
+     "DOTA_Tooltip_ability_oroch2_Description" "Техника, позволяющая воскрешать погибших людей при наличии жертвы и ДНК воскрешаемого, привязывая душу к новому телу"
+     "DOTA_Tooltip_ability_orochi2" "Ядовитая атака"
+     "DOTA_Tooltip_ability_orochi2_Description" "Атаки Орочимару пропитываются ядом, который замедляет и наносит урон врагу"
+     "DOTA_Tooltip_ability_orochi2_damage" "УРОН:"
+     "DOTA_Tooltip_ability_orochi2_movement_speed" "%ЗАМЕДЛЕНИЕ:"
+     "DOTA_Tooltip_ability_heal_spell" "Восстановление жизни"
+     "DOTA_Tooltip_ability_heal_spell_Description" "Орочимару за счет проклятых меток восстанавливает себе здоровье и ману"
+     "DOTA_Tooltip_ability_heal_spell_duration" "ДЛИТЕЛЬНОСТЬ:"
+     "DOTA_Tooltip_ability_heal_spell_hp_regen" "ДОП. РЕГЕНЕРАЦИЯ:"
+     "DOTA_Tooltip_ability_heal_spell_mana_regen" "ДОП. ВОССТАНОВЛЕНИЕ МАНЫ:"
+     "DOTA_Tooltip_ability_undying_tombstone" "Эдо Тэнсэй"
+     "DOTA_Tooltip_ability_undying_tombstone_Description" "Техника, которая привязывает душу умершего к живому сосуду, чтобы воскресить его в таком же виде, как при жизни, и заставить служить пользователю техники"
+
+
+
+
+
+
+     "DOTA_Tooltip_ability_invo1" "Сила"
+     "DOTA_Tooltip_ability_invo1_Description" "Герой получает бонусную силу пока способность активна"
+     "DOTA_Tooltip_ability_invo1_str" "ДОП. СИЛА:"
+
+     "DOTA_Tooltip_ability_invo2" "Ловкость"
+     "DOTA_Tooltip_ability_invo2_Description" "Герой получает бонусную ловкость пока способность активна"
+     "DOTA_Tooltip_ability_invo2_agl" "ДОП. ЛОВКОСТЬ:"
+
+     "DOTA_Tooltip_ability_invo3" "Интеллект"
+     "DOTA_Tooltip_ability_invo3_Description" "Герой получает бонусный интеллект пока способность активна"
+     "DOTA_Tooltip_ability_invo3_int" "ДОП: ИНТЕЛЛЕКТ:"
+
+     "DOTA_Tooltip_ability_invo4" "Универсальность"
+     "DOTA_Tooltip_ability_invo4_Description" "Получает все атрибуты пока способность активна"
+     "DOTA_Tooltip_ability_invo4_int" "ДОП. АТРИБУТЫ:"
+
+     "DOTA_Tooltip_ability_invo5" "Усиление"
+     "DOTA_Tooltip_ability_invo5_Description" "Получает бонусы в зависимости от того, какой режим был выбран"
+     "DOTA_Tooltip_ability_invo5_str_all" "(Универсальность)ДОП. СИЛА:"
+     "DOTA_Tooltip_ability_invo5_agl_all" "(Универсальность)ДОП. ЛОВКОСТЬ:"
+     "DOTA_Tooltip_ability_invo5_int_all" "(Универсальность)ДОП. ИНТЕЛЛЕКТ:"
+     "DOTA_Tooltip_ability_invo5_int" "(Интеллект)ДОП. ИНТЕЛЛЕКТ:"
+     "DOTA_Tooltip_ability_invo5_mp_regen" "(Интеллект)ДОП. МАНА РЕГЕНЕРАЦИЯ:"
+     "DOTA_Tooltip_ability_invo5_hp_regen" "(Интеллект)ДОП. РЕГЕНЕРАЦИЯ ЗДОРОВЬЯ:"
+     "DOTA_Tooltip_ability_invo5_agl" "(Ловкость)ДОП. ЛОВКОСТЬ:"
+     "DOTA_Tooltip_ability_invo5_as_bonus" "(Ловкость)ДОП. СКОРОСТЬ АТАКИ:"
+     "DOTA_Tooltip_ability_invo5_evasion_bonus" "%(Ловкость)УКЛОНЕНИЕ:"
+     "DOTA_Tooltip_ability_invo5_str" "(Сила)ДОП. СИЛА:"
+     "DOTA_Tooltip_ability_invo5_armor_bonus" "(Сила)ДОП. БРОНЯ:"
+     "DOTA_Tooltip_ability_invo5_res_bonus" "%(Сила)ДОП. СОПРОТИВЛЕНИЕ МАГИИ:"
+     "DOTA_Tooltip_ability_invo5_duration" "ДЛИТЕЛЬНОСТЬ:"
+
+
+
+
+     "DOTA_Tooltip_ability_dawnbreaker_celestial_hammer" "Jinpu Ritta"
+     "DOTA_Tooltip_ability_dawnbreaker_celestial_hammer_Description" "Священная реликвия Эсканора, представляющая собой огромный боевой топор. Эсканор может в любой момент позвать топор и тот на огромной скорости пролетит любое расстояние, оказавшись в руке своего владельца"
+     "DOTA_Tooltip_ability_dawnbreaker_converge" "ВОЗВРАЩЕНИЕ"
+     "DOTA_Tooltip_ability_dawnbreaker_converge_Description" "Священная реликвия Эсканора, представляющая собой огромный боевой топор. Эсканор может в любой момент позвать топор и тот на огромной скорости пролетит любое расстояние, оказавшись в руке своего владельца"
+     "DOTA_Tooltip_ability_esk2" "Onchō"
+     "DOTA_Tooltip_ability_esk2_Description" "Милость Эсканора, которая вызывает увеличение его силы вместе с восходом солнца"
+     "DOTA_Tooltip_ability_esk2_atk" "ДОП. АТАКА:"
+     "DOTA_Tooltip_ability_esk2_as" "ДОП. СКОРОСТЬ АТАКИ:"
+     "DOTA_Tooltip_ability_esk2_ms" "ДОП. СКОРОСТЬ ПЕРЕДВИЖЕНИЯ:"
+     "DOTA_Tooltip_ability_esk2_armor" "ДОП. БРОНЯ:"
+     "DOTA_Tooltip_ability_esk2_mag_res" "%ДОП. МАГИЧЕСКОЕ СОПРОТИВЛЕНИЕ:"
+     "DOTA_Tooltip_ability_esk2_hp_regen" "%ДОП. РЕГЕНЕРАЦИЯ ЗДОРОВЬЯ:"
+     "DOTA_Tooltip_ability_esk3" "Солнечный свет"
+     "DOTA_Tooltip_ability_esk3_Description" "Тело Эсканора способно испускать солнечный свет с ужасающей температурой, который сжигает врага"
+     "DOTA_Tooltip_ability_esk3_duration" "ДЛИТЕЛЬНОСТЬ:"
+     "DOTA_Tooltip_ability_esk3_damage_bonus" "УРОН:"
+     "DOTA_Tooltip_ability_esk3_move" "ЗАМЕДЛЕНИЕ:"
+     "DOTA_Tooltip_ability_esk3_armor" "СНИЖЕНИЕ БРОНИ:"
+     "DOTA_Tooltip_ability_esk4" "Sakuretsu suru Gōman"
+     "DOTA_Tooltip_ability_esk4_Description" "Создает солнце которое наносит огромный урон врагам. По окончанию возрождается с полными ресурсами и оглушает всех врагов на карте"
+     "DOTA_Tooltip_ability_esk4_damage_per_sec" "УРОН В СЕКУНДУ:"
+     "DOTA_Tooltip_ability_esk4_stun_duration" "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
+     "DOTA_Tooltip_ability_esk4_max_hero_attacks" "АТАК ДЛЯ УНИЧТОЖЕНИЯ:"
+
+
+
+
+
+
+     "DOTA_Tooltip_ability_maho11"  "Сверхскоростная регенерация"
+     "DOTA_Tooltip_ability_maho12"  "Сверхскоростная регенерация"
+     "DOTA_Tooltip_ability_maho13"  "Сверхскоростная регенерация"
+
+     "DOTA_Tooltip_ability_maho3"  "Адаптация"
+
+     "DOTA_Tooltip_ability_maho21" "Меч уничтожения"
+     "DOTA_Tooltip_ability_maho22" "Меч уничтожения"
+     "DOTA_Tooltip_ability_maho23" "Меч уничтожения"
+     "DOTA_Tooltip_ability_maho21_damage" "УРОН:"
+     "DOTA_Tooltip_ability_maho22_damage" "УРОН:"
+     "DOTA_Tooltip_ability_maho23_damage" "УРОН:"
+
+     "DOTA_Tooltip_ability_volf1" "РЁВ"
+     "DOTA_Tooltip_ability_volf1_Description" "Снижает врагам броню"
+     "DOTA_Tooltip_ability_volf1_howl_duration" "ДЛИТЕЛЬНОСТЬ:"
+     "DOTA_Tooltip_ability_volf1_armor" "СНИЖЕНИЕ БРОНИ:"
+
+     "DOTA_Tooltip_ability_volf2" "АУРА присутствия"
+     "DOTA_Tooltip_ability_volf2_Description" "Дает союзникам доп. атаку и усиливает регенерацию"
+     "DOTA_Tooltip_ability_volf2_bonus_damage" "%ДОП. УРОН:"
+     "DOTA_Tooltip_ability_volf2_bonus_hp_regen" "ДОП. РЕГЕНЕРАЦИЯ:"
+
+     "DOTA_Tooltip_ability_meg1" "Гончие"
+     "DOTA_Tooltip_ability_meg1_Description" "Мэгуми создаёт двух гончих: белую и чёрную, для отвлечения внимания врагов и быстрого устранения помех"
+     "DOTA_Tooltip_ability_meg1_duration" "ДЛИТЕЛЬНОСТЬ:"
+
+     "DOTA_Tooltip_ability_meg4" "Божественный Генерал Махорага"
+     "DOTA_Tooltip_ability_meg4_Description" "Самый могущественный шикигами, который можно призвать с помощью Техники Десяти Теней. До сих пор ни один пользователь Техники не смог изгнать Махорагу"
+     "DOTA_Tooltip_ability_meg4_duration" "ДЛИТЕЛЬНОСТЬ:"
+     "DOTA_Tooltip_ability_meg4_radius" "РАДИУС:"
+     "DOTA_Tooltip_ability_meg4_damage" "УРОН:"
+     "DOTA_Tooltip_ability_meg4_stun" "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
+
+     "DOTA_Tooltip_ability_meg2" "Язык Лягушки"
+     "DOTA_Tooltip_ability_meg2_Description" "Мэгуми использует язык шикигами лягушки, притягивая врага поближе"
+     "DOTA_Tooltip_ability_meg2_damage" "УРОН:"
+
+     "DOTA_Tooltip_ability_meg3" "Хобот Бансё"
+     "DOTA_Tooltip_ability_meg3_Description" "Мэгуми выдувает воды из хобота слона Бансё, подкидывая противника в воздух"
+     "DOTA_Tooltip_ability_meg3_stun_duration" "ДЛИТЕЛЬНОСТЬ ОГЛУШЕНИЯ:"
+     "DOTA_Tooltip_ability_meg3_torrent_damage" "УРОН:"
+     "DOTA_Tooltip_ability_meg3_delay" "ЗАДЕРЖКА ПЕРЕД ПРИМЕНЕНИЕМ:"
+
+
+ 
+
+
+
+
+     //talents(beta)
+     "DOTA_Tooltip_ability_special_bonus_unique_sait151" "+{s:bonus_max_stun}сек. к длительности оглушения от Серьёзный удар"
+     "DOTA_Tooltip_ability_special_bonus_unique_sait101" "+{s:bonus_pop_damage} к урону от Огромная скорость"
+     "DOTA_Tooltip_ability_special_bonus_unique_sait102" "-{s:bonus_AbilityChargeRestoreTime}сек. от восстановления заряда Огромная скорость"
+     "DOTA_Tooltip_ability_special_bonus_unique_garo2" "+{s:bonus_bonus_damage} к урону от Мгновенный эффект"
+     "DOTA_Tooltip_ability_special_bonus_unique_garo1" "+{s:bonus_bonus_damage} к урону от Мастер боевых исскуств"
+     "DOTA_Tooltip_ability_special_bonus_unique_tod1" "+{s:bonus_bonus_attack_speed} к скорости атаки от Быстрое перемещение"
+     "DOTA_Tooltip_ability_special_bonus_unique_tod2" "+{s:bonus_magic_resistance} к сопротивлению от Магическая сопротивляемость"
+	 "DOTA_Tooltip_ability_special_bonus_unique_dio4" "+{s:bonus_crit_multiplier} к критическому урону от SHINE!"
+	 "DOTA_Tooltip_ability_special_bonus_unique_dio1" "+{s:bonus_bonus_armor} к броне от Бессмертное тело"
+	 "DOTA_Tooltip_ability_special_bonus_unique_doomya1" "+{s:bonus_damage} к урону от ЗАПИСЬ В ТЕТРАДЬ"
+	 "DOTA_Tooltip_ability_special_bonus_unique_doomya2" "-{s:bonus_AbilityCooldown} сек. от перезарядки ПЕРЕРОЖДЕНИЕ"
+	 "DOTA_Tooltip_ability_special_bonus_unique_fiol1" "+{s:bonus_magic_missile_damage} к урону от ФИОЛЕТОВЫЙ"
+	 "DOTA_Tooltip_ability_special_bonus_unique_fiol2" "+{s:bonus_AbilityCastRange} к дальности от ФИОЛЕТОВЫЙ"
+	 "DOTA_Tooltip_ability_special_bonus_unique_sharing2" "+{s:bonus_damage} к урону от КАМУИ"
+	 "DOTA_Tooltip_ability_special_bonus_unique_sharing1" "+{s:bonus_bonus_evasion} к уклонению от ШАРИНГАН"
+	 "DOTA_Tooltip_ability_special_bonus_unique_saske1" "+{s:bonus_damage} к урону от РИННЕГАН"
+	 "DOTA_Tooltip_ability_special_bonus_unique_uba1" "+{s:bonus_light_strike_array_damage} к урону от Проклятая речь"
+	 "DOTA_Tooltip_ability_special_bonus_unique_uba2" "+{s:bonus_bonus_damage} к урону от Черная молния"
+	 "DOTA_Tooltip_ability_special_bonus_unique_rema1" "+{s:bonus_radial_count} к кол-ву лучей от Техника рассечения"
+	 "DOTA_Tooltip_ability_special_bonus_unique_rema2" "+{s:bonus_burn_damage} к процентному урону от Огненный шторм"
+	 "DOTA_Tooltip_ability_special_bonus_unique_guts1" "+{s:bonus_blast_dot_damage} к DOT урону от Ручная пушка"
+	 "DOTA_Tooltip_ability_special_bonus_unique_guts2" "+{s:bonus_gods_strength_damage}% к урону от Берсерк"
+	 "DOTA_Tooltip_ability_special_bonus_unique_narut1" "+{s:bonus_bonus_damage} к урону от ВНЕЗАПНЫЙ УДАР"
+	 "DOTA_Tooltip_ability_special_bonus_unique_narut2" "-{s:bonus_base_attack_time} у интервала от Режим Отшельника"
+	 "DOTA_Tooltip_ability_special_bonus_unique_rengo1" "+6 процентов к урону от Чистилище"
+	 "DOTA_Tooltip_ability_special_bonus_unique_rengo2" "+{s:bonus_duration} к длительности от Пламенный тигр"
+	 "DOTA_Tooltip_ability_special_bonus_unique_godgo1" "+{s:bonus_slow_attack_speed} к замедлению атаки от БЕСКОНЕЧНОСТЬ"
+	 "DOTA_Tooltip_ability_special_bonus_unique_godgo1" "+{s:bonus_slow_attack_speed} к замедлению атаки от БЕСКОНЕЧНОСТЬ"
+	 "DOTA_Tooltip_ability_special_bonus_unique_saske151" "+{s:bonus_bonus_base_damage} процентов к бонусному урону от МЕТКА ОРОЧИМАРУ"
+	 "DOTA_Tooltip_ability_special_bonus_unique_saske152" "+{s:bonus_ball_lightning_vision_radius} к обзору от ЧИДОРИ"
+	 "DOTA_Tooltip_ability_special_bonus_unique_rema152" "+{s:bonus_radius} к радиусу от огненный шторм"
+	 "DOTA_Tooltip_ability_special_bonus_unique_rema151" "+{s:bonus_damage} к урону от техника рассечения"
+	 "DOTA_Tooltip_ability_special_bonus_unique_ubauba152" "+{s:bonus_hp_regen}% к доп. регенерации от обратаня проклятая техника"
+	 "DOTA_Tooltip_ability_special_bonus_unique_ubauba151" "+{s:bonus_light_strike_array_stun_duration} к длительности оглушения от Проклятая речь"
+	 "DOTA_Tooltip_ability_special_bonus_unique_guts151" "+{s:bonus_blast_stun_duration} к длительности оглушения от ручная пушка"
+	 "DOTA_Tooltip_ability_special_bonus_unique_guts152" "+{s:bonus_damage_reflection_pct}% к блокированию от шипованные доспехи"
+	 "DOTA_Tooltip_ability_special_bonus_unique_rengo151" "+{s:bonus_bonus_attack_speed} к доп. скорости атаки от Пламенный тигр"
+	 "DOTA_Tooltip_ability_special_bonus_unique_todgi151" "+{s:bonus_damage} к урону от Отвлекающий манёвр"
+	 "DOTA_Tooltip_ability_special_bonus_unique_yagami151" "+{s:bonus_bonus_intelligence} к интеллекту от БЕЗГРАНИЧНЫЙ ИНТЕЛЛЕКТ"
+	 "DOTA_Tooltip_ability_special_bonus_unique_yagami152" "+{s:bonus_slow_duration} к замедлению от ПЕРЕРОЖДЕНИЕ"
+	 "DOTA_Tooltip_ability_special_bonus_unique_oroch102" "+{s:bonus_duration}с. к длительности от Восстановление жизни"
+	 "DOTA_Tooltip_ability_special_bonus_unique_oroch101" "+{s:bonus_hits_to_destroy_tooltip} к здоровью ЭДО ТЕНСЕЙ"
+	 "DOTA_Tooltip_ability_special_bonus_unique_esk101" "+{s:bonus_damage_bonus} к урону от Солнечный свет"
+	 "DOTA_Tooltip_ability_special_bonus_unique_esk102" "+{s:bonus_armor} к снижению брони от Солнечный свет"
+	 "DOTA_Tooltip_ability_special_bonus_unique_esk151" "+{s:bonus_mag_res}% к сопротивлению магии от Onchō"
+	 "DOTA_Tooltip_ability_special_bonus_unique_meg101" "+{s:bonus_damage} к урону от Язык Лягушки"
+	 "DOTA_Tooltip_ability_special_bonus_unique_meg102" "+{s:bonus_damage} к урону от Божественный Генерал Махорага"
+
+
+     //35 лвл абилки
+	 "DOTA_Tooltip_ability_sykyna35" "Настоящая форма Сукуны"
+	 "DOTA_Tooltip_ability_sykyna35_Description" "Сукуна входит в свою настоящую пятитысячелетнюю форму, повышая свои физические способности"
+	 "DOTA_Tooltip_ability_sykyna35_ms" "СКОРОСТЬ ПЕРЕДВИЖЕНИЯ:"
+	 "DOTA_Tooltip_ability_sykyna35_armor" "ДОП. БРОНЯ:"
+	 "DOTA_Tooltip_ability_sykyna35_mag_res" "%ДОП. МАГ. ЗАЩИТА:"
+	 "DOTA_Tooltip_ability_sykyna35_hp" "ДОП. ЗДОРОВЬЕ:"
+	 "DOTA_Tooltip_ability_sykyna35_mag_dmg" "%ДОП. МАГ. УРОН:"
+
+	 "DOTA_Tooltip_ability_rengo35" "Метка Охотника"
+	 "DOTA_Tooltip_ability_rengo35_Description" "Ренгоку пробуждает Метку Охотника, повышая свои физические способности"
+	 "DOTA_Tooltip_ability_rengo35_ms" "ДОП. СКОРОСТЬ ПЕРЕДВИЖЕНИЯ:"
+	 "DOTA_Tooltip_ability_rengo35_damage" "ДОП. УРОН:"
+	 "DOTA_Tooltip_ability_rengo35_stats" "ДОП. СТАТЫ:"
+	 "DOTA_Tooltip_ability_rengo35_as" "ДОП. СКОРОСТЬ АТАКИ:"
+
+	 "DOTA_Tooltip_ability_sator35" "Необъятная Бездна"
+	 "DOTA_Tooltip_ability_sator35_Description" "Он создает безграничное пространство, в котором противники, казалось бы, могут видеть и ощущать всё, но поток информации бесконечен, а потому противники просто медленно умирают, одарённые всем, но неспособные ничего сделать"
+	 "DOTA_Tooltip_ability_sator35_duration" "ДЛИТЕЛЬНОСТЬ:"
+	 "DOTA_Tooltip_ability_sator35_damage"   "УРОН:"
+	 "DOTA_Tooltip_ability_sator35_radius"   "РАДИУС:"
+
+	 "DOTA_Tooltip_ability_sait35" "Сломанный Лимитёр"
+	 "DOTA_Tooltip_ability_sait35_Description" "Сайтама так усердно тренировался с указанным режимом тренировок, что сломал свой лимитёр"
+	 "DOTA_Tooltip_ability_sait35_damage" "УРОН:"
+
+
+	 //items lua
+	 "DOTA_Tooltip_ability_item_nullif_up" "Хитен"
+	 "DOTA_Tooltip_ability_item_nullif_up_Description" "<h1>Активное: Purge</h1>Снимает все положительные эффекты с цели в течении 7с. и наносит урон и замедляет цель в зависимости от количества снятых эффектов (70 за эффект)"
+	 "DOTA_Tooltip_ability_item_nullif_up_hp_regen" "+ к восстановлению здоровья"
+	 "DOTA_Tooltip_ability_item_nullif_up_armor"
+	 "DOTA_Tooltip_ability_item_nullif_up_damage_bonus"
+
+	 "DOTA_Tooltip_ability_item_mkb_silver" "Перевернутое Копье Небес"
+	 "DOTA_Tooltip_ability_item_mkb_silver_Description" "<h1>Активное: Подавление</h1> Делает героя невидимым на 15 сек. или до момента, когда он совершит атаку. Также увеличивает скорость передвижения на 35%. Атака, прерывающая невидимость, нанесет дополнительно 300 урона и 7%от максимального здоровья противника. Также отключит пассивные способности противника на 10 сек \n\n<h1>Пассивное: Проклятая техника</h1> Атаки наносят дополнительно 85 маг. урона и ими невозможно промахнуться"
+	 "DOTA_Tooltip_ability_item_mkb_silver_as" "+$attack"
+	 "DOTA_Tooltip_ability_item_mkb_silver_bonus_damage" "+$damage"
+
+	 "DOTA_Tooltip_ability_item_mag_shard_mini" "Кулак Дивергента"
+	 "DOTA_Tooltip_ability_item_mag_shard_mini_Description" "<h1>Пассивное: Усиление</h1> Увеличивает урон от заклинаний"
+	 "DOTA_Tooltip_ability_item_mag_shard_mini_damage_prc" "%+$spell_amp"
+
+	 "DOTA_Tooltip_ability_item_mag_shard1" "Палец Сукуны"
+	 "DOTA_Tooltip_ability_item_mag_shard1_Description" "<h1>Пассивное: Воссоединение</h1> 3 пальца обарзуют более мощный"
+	 "DOTA_Tooltip_ability_item_mag_shard1_damage_prc" "%+$spell_amp"
+
+	 "DOTA_Tooltip_ability_item_mag_shard2" "Палец Сукуны"
+	 "DOTA_Tooltip_ability_item_mag_shard2_Description" "<h1>Пассивное: Воссоединение</h1> 3 пальца обарзуют более мощный"
+	 "DOTA_Tooltip_ability_item_mag_shard2_damage" "+$damage"
+
+	 "DOTA_Tooltip_ability_item_mag_shard3" "Палец Сукуны"
+	 "DOTA_Tooltip_ability_item_mag_shard3_Description" "<h1>Пассивное: Воссоединение</h1> 3 пальца обарзуют более мощный"
+	 "DOTA_Tooltip_ability_item_mag_shard3_res" "%+ к защите от урона"
+
+	 "DOTA_Tooltip_ability_item_mag_shard_true" "Большой Палец Сукуны"
+	 "DOTA_Tooltip_ability_item_mag_shard_true_Description" "<h1>Активное: Поглощение</h1> Поглощает предмет"
+	 "DOTA_Tooltip_ability_item_mag_shard_true_res" "%+ к защите от урона"
+	 "DOTA_Tooltip_ability_item_mag_shard_true_damage" "+$damage"
+	 "DOTA_Tooltip_ability_item_mag_shard_true_damage_prc" "%+$spell_amp"
+
+	 "DOTA_Tooltip_ability_item_ref_boss" "Рефрешер Боссов"
+	 "DOTA_Tooltip_ability_item_ref_boss_Description" "<h1>Активное: Возрождение</h1> Создает 3-х новых боссов"
+	}
+}
